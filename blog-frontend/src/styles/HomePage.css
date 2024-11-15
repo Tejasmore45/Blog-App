@@ -1,0 +1,55 @@
+/* src/styles/HomePage.css */
+.home-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+  }
+  
+  .about-section {
+    padding: 30px 20px;
+  }
+  
+  .featured-posts .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .featured-posts .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  .btn-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Add some spacing for Login and Register buttons */
+  section.text-center {
+    margin-top: 40px;
+  }
+  
+  .btn-primary, .btn-success {
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-success:hover {
+    background-color: #28a745;
+  }
+  
